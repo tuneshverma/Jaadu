@@ -1,11 +1,6 @@
-
-
 from PIL import Image
 from pytesseract import pytesseract as pt
 import argparse
-
-
-
 
 
 def resizing(image_path):
@@ -16,14 +11,7 @@ def resizing(image_path):
     im.save( image_path.split('.')[0]+ '_resized.jpg' , dpi=(200,200))
 
 
-
-# def main()
-
 # image_path = '/home/sasuke/Downloads/All_detection/python/cropped_images/do.jpg'
-
-
-
-
 
 # resizing(image_path)
 
